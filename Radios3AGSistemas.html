@@ -21,7 +21,7 @@ padding:0;
 box-sizing:border-box;
 }
 body{
-            background-image: url(https://img.freepik.com/foto-gratis/render-3d-banner-comunicaciones-red-diseno-baja-poli_1048-13013.jpg?w=996&t=st=1715576131~exp=1715576731~hmac=bff061c247eedfb2c134bf47f535cd48810e604c7a99430291b4883e052ed9d7);
+            background-image: url(https://e1.pxfuel.com/desktop-wallpaper/718/428/desktop-wallpaper-podcasts-reinventing-the-radio-for-creatives-on-a-budget-podcast.jpg);
 background-attachment:fixed;
 background-size: 100% 100%;
 background-position: top center;
@@ -455,7 +455,7 @@ video {
   transform: translateX(calc((100% - 100vw) / 2));
   z-index: -2;
 }
-            #float{
+
 </style>
 <script>
   var country = document.getElementById('country');
@@ -499,7 +499,7 @@ return i;
   <div>
    <img src="https://cdn-icons-png.flaticon.com/512/6290/6290557.png" width="60%"><h1> <span>Radios</span></h1>
 <p>Creado por <a href="https://acortar.link/fbOxhe" >AG Sistemas</a></p>
-<button onclick="showMusicList()">Escuchar</button>
+<button onclick="showMusicList()">Escuchar.</button>
   </div>
 </section>
 <section class="sec sec-2 hide" id="sec-2">
@@ -586,22 +586,22 @@ return i;
  id:1,
  category:"",
  name:"Radio San Roque (Villa de Soto)",
- src:"https://s21.myradiostream.com/10952/listen.mp3",
+ src:"https://radio01.ferozo.com/proxy/ra01001153?mp=/stream",
  image:"https://villadesoto.gob.ar/wp-content/uploads/2019/01/30127314_1995982100719193_3211942701260033671_n.jpg",
  },
  {
  id:2,
  category:"",
  name:"Los 40 Principales (Cap Fed)",
- src:"https://edge04.radiohdvivo.com/stream/los40",
+ src:"https://edge02.radiohdvivo.com/los40",
  image:"https://static.mytuner.mobi/media/tvos_radios/wnQePCrWJ2.png",
  },
  {
  id:3,
  category:"",
  name:"Radio Popular (Cordoba)",
- src:"https://playerservices.streamtheworld.com/api/livestream-redirect/lapopu.mp3?dist=c3-web",
- image:"https://play-lh.googleusercontent.com/H23PRIC0eQ5ixXalgl3-mnOkeyQscWZ7JELSV1Dv6EUtJR7R8eMXmAhmTKLb95Egiso=w240-h480-rw",
+ src:"https://24283.live.streamtheworld.com/LAPOPU.mp3?dist=c3-web",
+ image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW2qWLl-Us3XnHdkI5UyHERVVJ8E93jhqwOQ&s",
  },
  {
  id:4,
@@ -839,7 +839,7 @@ const playMusic = async (i) => {
   }
   setMusicList()
  }
-function setEqualizer(action = false){
+function setEqualizer(action = true){
  const elc = musicList.getElementsByClassName("equalize")[index-1];
  const thumb =  document.querySelector(".thumbnail");
  if(elc.classList.contains("pause")) {
